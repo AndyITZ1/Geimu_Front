@@ -1,0 +1,121 @@
+.flex-register-column {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    height: 600px;
+}
+
+.form-register-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 1rem;
+    border: 5px solid white;
+    min-height: 420px;
+    max-width: 800px;
+    width: 50%;
+    gap: 0.5rem;
+}
+
+
+.register-inputs {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    /* background-color: antiquewhite; */
+}
+
+.register-col {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aliceblue; */
+    max-width: 400px;
+    width: 340px;
+    gap: 1rem;
+}
+
+.register-comp {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+#register-button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    width: 20%;
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.25s;
+    width: min-content;
+    white-space: nowrap;
+    margin-top:15px;
+}
+
+#register-button:hover {
+    background-color: red;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.auth-text-register {
+    font-size: 1rem;
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.redirect-login {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.redirect-login a {
+    padding-left: 0.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.842);
+}
+
+.redirect-login a:hover {
+    color: red;
+}
+
+.short-register {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.short-register select {
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 2rem;
+    /* border-radius: 2rem; */
+}
+
+.country-select {
+    width: 100px;
+}
+
+.zipcode-input {
+    font-size: 1rem;
+    height: 2.5rem;
+    width: 140px;
+    border-radius: 2rem;
+    padding: 1rem;
+}

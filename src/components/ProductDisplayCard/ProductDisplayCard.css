@@ -1,0 +1,47 @@
+.display-container {
+    background-color: black;
+    border: 6px black;
+    border-style: solid ridge solid ridge;
+    border-top: none;
+    max-height: 500px;
+    height: 420px;
+    max-width: 300px;
+    width: 280px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.product-img-container {
+    background-color: #333;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+.product-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.1rem;
+    padding: 0 1rem;
+}
+
+.product-content h3, .product-content h2, .product-content h4 { 
+    margin: 0;
+}
+
+#product-img {
+    width: 160px;
+    height: auto;
+    border-radius: 0.4rem;
+}
+
+#dollar-sign {
+    font-size: 14px;
+    vertical-align: 6px;
+}

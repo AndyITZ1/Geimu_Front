@@ -1,0 +1,86 @@
+.flex-login-column {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    height: 600px;
+}
+
+.form-login-container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 1rem;
+    border: 5px solid white;
+    min-height: 360px;
+    max-width: 600px;
+    width: 50%;
+    gap: 0.5rem;
+}
+
+.login-comp {
+    justify-content: center;
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    /* background-color: green; */
+    width: 80%;
+}
+
+.label-login {
+    text-align: left;
+}
+
+#login-button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    width: 20%;
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.25s;
+    width: min-content;
+    white-space: nowrap;
+    margin-top:5px;
+}
+
+#login-button:hover {
+    background-color: red;
+    /* color: white; */
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.auth-text {
+    font-size: 1rem;
+    height: 3rem;
+    width: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.redirect-register {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.redirect-register a {
+    padding-left: 0.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.842);
+}
+
+.redirect-register a:hover {
+    color: red;
+}

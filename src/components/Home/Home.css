@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+.products-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+}
